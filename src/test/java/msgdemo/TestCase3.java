@@ -56,7 +56,7 @@ public class TestCase3 {
 				ele.get(0).click();
 				
 			} catch (Exception e) {
-				System.out.println("There are no new items to be clicked");
+				System.out.println("There are no new items to be Clipped");
 			}
 			 
 			driver.findElement(By.xpath("//span[contains(text(),\"Clipped\")]")).click();
@@ -66,7 +66,7 @@ public class TestCase3 {
 			 assertEquals(clippedText, clipText, "No match!!");
 		
 					
-			//driver.quit();
+			//driver.quit();  
 
 
 	}
